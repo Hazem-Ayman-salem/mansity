@@ -1,0 +1,15 @@
+﻿*{
+    transition: all 0.5s;
+}
+a,.card{
+    transition: all 0.3s; 
+}
+a:hover {
+    transform: scale(1.2);
+}
+@keyframes appear {
+    0%{display: none;}
+    100%{
+        display:block;
+      }
+  }
